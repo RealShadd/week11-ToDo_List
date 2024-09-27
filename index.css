@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 2%;
+  margin: 0 auto;
+  text-align: left;
+  width: 30%;
+}
+
+button {
+  width: 10%;
+  height: 55%;
+  background-color: #71d78f;
+  cursor: pointer;
+  font-size: 27px;
+  border: 1px;
+}
+button:hover {
+  background-color: #71d78f;
+}
+button:active {
+  background-color: #9ddbaf;
+  transform: translateY(1px);
+}
+input {
+  border: 1px;
+  outline: auto;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  outline: auto;
+}
